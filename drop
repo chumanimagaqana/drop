@@ -21,7 +21,7 @@ service dropbear restart
 sleep 2
 chmod +x stealth
 sleep 2
-./stealth authtoken 1hPVtnFViFxmKgZ7xCsRonAP1gM_7XJftJUxFEGpnjM1ySm64
+./stealth authtoken 1hPU82yQfqdGgCq16CmiIJZJRWT_66BpzWMy9rPqzwMVDKsW1
 sleep 2
 screen -dmS drop bash -c './stealth tcp 2222'
 
